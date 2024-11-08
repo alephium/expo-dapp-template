@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "version": "0.1.0",
+  "license": "MIT",
+  "workspaces": [
+    "contracts",
+    "app"
+  ],
+  "scripts": {
+    "compile": "yarn workspace my-contracts compile",
+    "deploy": "yarn workspace my-contracts deploy",
+    "build:contracts": "yarn workspace my-contracts build",
+
+    "start": "yarn workspace my-dapp start",
+    "ios": "yarn workspace my-dapp ios",
+    "android": "yarn workspace my-dapp android",
+    "web": "yarn workspace my-dapp web"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}
