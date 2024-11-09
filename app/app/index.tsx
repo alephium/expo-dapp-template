@@ -1,12 +1,10 @@
-import Home from '@/components/Home';
-import { Text, View } from "react-native";
+import Home from '../components/Home';
+import { Button, Text, View } from "react-native";
 
 export default function Index() {
   return (
-    <View
-    >
+    <View>
       <Home />
-      <Text>Hello</Text>
     </View>
   );
 }
