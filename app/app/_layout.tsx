@@ -5,13 +5,17 @@ import { Stack } from "expo-router";
 export default function RootLayout() {
   return (
     <AlephiumWalletProvider
-    theme='web95'
-    network={tokenFaucetConfig.network}
-    addressGroup={tokenFaucetConfig.groupIndex}
+      theme='web95'
+      network={tokenFaucetConfig.network}
+      addressGroup={tokenFaucetConfig.groupIndex}
     >
-      <Stack>
-        <Stack.Screen name="index" />
+      <Stack
+        screenOptions={{
+          headerShown: false,
+        }}
+      >
+        <Stack.Screen name='index' />
       </Stack>
     </AlephiumWalletProvider>
-  );
+  )
 }
