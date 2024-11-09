@@ -1,8 +1,8 @@
-# My React dApp
+# My React Native dApp (WIP)
 
 This template monorepo was designed to provide a developer-friendly experience to Alephium ecosystem newcomers. It is split into 2 parts:
 
-- app: contains the React frontend part of the dApp
+- app: contains the React Native part of the dApp
 - contracts: contains the dApp contracts
 
 It uses **yarn workspaces** to manage both app and contract projects from the monorepo root.
